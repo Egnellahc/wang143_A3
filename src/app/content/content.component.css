@@ -1,0 +1,20 @@
+#background{
+    background-color: #B5E6B5;
+}
+
+li {
+    background: rgba(0,0,255,0.5); border: thin solid navy;
+    padding: 10px; margin: 0px 10px 5px 10px;
+    list-style-type: none; text-align: center;
+}
+li div {
+    background: bisque;
+}
+
+.gridArea{
+
+}
+
+#notes{
+    font-size: 20%;
+}

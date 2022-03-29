@@ -12,12 +12,14 @@ import { SheridanCourses } from 'src/assets/data/myCourse';
 export class ContentComponent implements OnInit {
 
   courseList: Courses[] = SheridanCourses;
+  myInfo: wang143 = ZWInfo;
+  goForNext: boolean[] = [];
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  onClick(i){
-
+  onClick(x: number){
+    this.goForNext[x] = !this.goForNext[x];
   }
 }
