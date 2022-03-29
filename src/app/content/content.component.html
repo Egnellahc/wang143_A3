@@ -1,1 +1,20 @@
-<p>content works!</p>
+<section class="gridArea">
+    <div>
+        
+    </div>
+    <div>
+        <h3>My Course Info:</h3>
+        <ul>
+            <li (click)="onClick(i)" *ngFor="let items of courseList; let i = index">
+                {{items.courseTitle}}
+                <div *ngIf="">
+                    <strong>Course Code:</strong> {{items.courseCode}}<br>
+                    <strong>Course Name:</strong> {{items.courseTitle}}<br>
+                    <strong>Day of Week:</strong> {{items.dayOfWeek}}<br>
+                    <strong>Professor's Name:</strong> {{items.profName}}<br>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</section>
